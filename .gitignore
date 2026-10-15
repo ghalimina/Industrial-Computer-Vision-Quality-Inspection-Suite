@@ -1,0 +1,53 @@
+# ==========================================
+# 🚫 Large Video Files (Keep locally, do not push to Git)
+# ==========================================
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# ==========================================
+# 🐍 Python Artifacts & Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor caches
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Extracted frame directories
+*_frames/
+*_framesone/
+*frame/
+test_frames/
